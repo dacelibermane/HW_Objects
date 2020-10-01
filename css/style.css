@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #212c3d;
+  color: #818182;
+  min-width: 300px;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+header{
+  padding: 50px
+}
+
+h1{
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.time{
+  text-align: center;
+}
+
+#time{
+	font-size: 30px;
+	color: #292980;
+}
+
+#city{
+	text-align: center;
+	font-size: 27px;
+	color: cornflowerblue;
+}
+  
+#temp{
+    text-align: center;
+    font-size: 22px;
+    color:#292980;
+}
+
+li{
+  border-left: 10px solid #0a3478;
+  background-color: #80aaed;
+  list-style-type: none;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
